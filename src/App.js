@@ -1,10 +1,13 @@
-import React from "react";
-import ReactDOM from 'react-dom/client';
+import Header from "./components/Header";
+import Body from "./components/Body";
 
-const heading = React.createElement("h1", {id: "heading"}, "I am from React");
+const App = () => {
+    return(
+        <div>
+            <Header />
+            <Body />
+        </div>
+    );
+}
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-console.log(heading);
-
-root.render(heading);
+export default App;

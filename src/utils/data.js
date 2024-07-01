@@ -1,7 +1,7 @@
 // 20240701130527
 // https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.248602&lng=81.609987&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
 
-const restaurantsData = [
+export const restaurantsData = [
   {
     info: {
       id: "84828",
