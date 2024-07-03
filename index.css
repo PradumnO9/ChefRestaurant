@@ -130,14 +130,18 @@
   cursor: pointer;
 }
 
+.food-itemContainer {
+  margin: 0 200px 0 200px;
+}
+
 .food-item {
   display: flex;
   justify-content: space-between;
 }
 
-/* .food-items {
-  margin-left: 45%;
-} */
+.food-items {
+  text-align: center;
+}
 
 #loader_outerDiv {
   position: absolute;
@@ -159,4 +163,19 @@
   100% {
       rotate: 360deg;
   }
+}
+
+.user-card {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.status-symbol {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: red;
 }

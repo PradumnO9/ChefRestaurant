@@ -9,3 +9,6 @@ export const MENU_API_URL =
 
 export const MENU_ITEM_IMG_URL =
   "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/";
+
+export const RES_CARD_URL =
+  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.248602&lng=81.609987&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";

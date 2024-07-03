@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { RES_CARD_URL } from "../utils/constant";
 
 import ReataurantCard from "./RestaurantsCard";
 import Shimmer from "./Shimmer";
@@ -11,12 +12,8 @@ const Body = () => {
   const [filteredResaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
 
-  const { resId } = useParams();
-
   const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.248602&lng=81.609987&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
+    const data = await fetch(RES_CARD_URL);
 
     const json = await data.json();
     setListOfRestaurant(

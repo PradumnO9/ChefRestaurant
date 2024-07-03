@@ -8,12 +8,16 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Error from "./components/Error";
+import useOnlineStatus from "./utils/useOnlineStatus";
 
 const App = () => {
+
+  const onlineStatus = useOnlineStatus();
+
   return (
     <div>
       <Header />
-      <Outlet />
+      {onlineStatus ? <Outlet /> : <h1>You are offline, Please check your internet connection</h1>}   
     </div>
   );
 };
