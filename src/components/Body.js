@@ -32,31 +32,34 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div>
-      <div className="filter">
-        <input
-          type="text"
-          className="search-box"
-          value={searchText}
-          onChange={(e) => {
-            setSearchText(e.target.value);
-          }}
-        />
+      <div className="flex justify-between">
+        <div className="m-4 p-4">
+          <input
+            type="text"
+            className="border border-solid border-gray-400 py-1 rounded-l-md"
+            value={searchText}
+            onChange={(e) => {
+              setSearchText(e.target.value);
+            }}
+          />
+          <button
+            className="px-4 py-1 bg-green-300 rounded-r-md border border-solid border-green-300"
+            onClick={() => {
+              setFilteredRestaurant(
+                listOfRestaurant.filter((search) =>
+                  search.info.name
+                    .toLowerCase()
+                    .includes(searchText.toLowerCase())
+                )
+              );
+            }}
+          >
+            Search
+          </button>
+        </div>
+        <div className="m-4 p-4">
         <button
-          className="search-btn"
-          onClick={() => {
-            setFilteredRestaurant(
-              listOfRestaurant.filter((search) =>
-                search.info.name
-                  .toLowerCase()
-                  .includes(searchText.toLowerCase())
-              )
-            );
-          }}
-        >
-          Search
-        </button>
-        <button
-          className="filter-btn"
+          className="px-4 py-1 bg-gray-100 rounded-md"
           onClick={() => {
             const filteredList = listOfRestaurant.filter(
               (res) => res.info.avgRating > 4.2
@@ -66,11 +69,17 @@ const Body = () => {
         >
           Top Rated Restaurant
         </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {filteredResaurant.map((resturant) => {
           return (
-            <Link className="link" key={resturant.info.id} to={"/restaurant/"+resturant.info.id}><ReataurantCard resData={resturant.info} /></Link>
+            <Link
+              key={resturant.info.id}
+              to={"/restaurant/" + resturant.info.id}
+            >
+              <ReataurantCard resData={resturant.info} />
+            </Link>
           );
         })}
       </div>

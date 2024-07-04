@@ -20,26 +20,26 @@ const RestaurantMenu = () => {
 
   return (
     <div>
-      <div className="food-items">
-        <h1>{name}</h1>
-        <h3>
+      <div className="text-center mt-4">
+        <h1 className="font-bold text-3xl">{name}</h1>
+        <h3 className="font-bold text-xl mt-4">
           {areaName}, {city}
         </h3>
-        <p>{costForTwoMessage}</p>
-        <h4>{avgRating} stars</h4>
-        <h5>{sla?.slaString}</h5>
+        <p className="mt-2">{costForTwoMessage}</p>
+        <h4 className="font-bold mt-2">{avgRating} stars</h4>
+        <h5 className="font-bold mt-2">{sla?.slaString}</h5>
       </div>
-      <div className="food-itemContainer">
-        <h2>Menu</h2>
+      <div className="mx-52">
+        <h2 className="font-bold text-2xl">Menu</h2>
         <hr />
         {itemCards.map((item) => {
           const { id, name, defaultPrice, price, description, imageId } = item?.card?.info;
           return (
             <div key={id}>
-              <div className="food-item">
-                <div className="food-itemInfo">
-                  <h2>{name}</h2>
-                  <h4>
+              <div className="flex justify-between my-2">
+                <div className="mt-6">
+                  <h2 className="font-bold text-xl">{name}</h2>
+                  <h4 className="mt-2 font-bold">
                     {defaultPrice / 100 ||
                       price / 100}
                     /-
@@ -47,7 +47,7 @@ const RestaurantMenu = () => {
                   <p>{description}</p>
                 </div>
                 <img
-                  className="food-itemImg"
+                  className="rounded-r-md"
                   alt=""
                   src={MENU_ITEM_IMG_URL + imageId}
                 />

@@ -29,4 +29,6 @@ Restaurant Application using React
 ------UNMOUNTING----
  componentWillUnmount -> calls when page remove from UI
 
- - Implement a Custom Hook -> useRestaurantMenu
+ - Implement Custom Hook -> useRestaurantMenu, useOnlineStatus
+ - Lazy Loading
+ - Configured Tailwind CSS
