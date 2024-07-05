@@ -26,7 +26,7 @@ class UserClass extends React.Component {
     const { name, url, avatar_url } = this.state.user;
 
     return (
-      <div className="flex justify-between items-center p-4 text-center w-[70%] border-2 border-solid border-gray-200 rounded-md shadow-md">
+      <div className="flex justify-between items-center p-4 text-center w-[70%] m-auto border-2 border-solid border-gray-200 rounded-md shadow-md">
         <img alt="" src={avatar_url} className="rounded-md" />
         <div className="mr-16">
         <h1 className="font-bold text-xl m-2">Name: {name}</h1>

@@ -43,7 +43,7 @@ const Body = () => {
             }}
           />
           <button
-            className="px-4 py-1 bg-green-300 rounded-r-md border border-solid border-green-300"
+            className="px-4 py-1 bg-green-300 rounded-r-md border border-solid border-green-400 hover:bg-green-400"
             onClick={() => {
               setFilteredRestaurant(
                 listOfRestaurant.filter((search) =>
@@ -59,7 +59,7 @@ const Body = () => {
         </div>
         <div className="m-4 p-4">
         <button
-          className="px-4 py-1 bg-gray-100 rounded-md"
+          className="px-4 py-1 bg-gray-100 rounded-md hover:bg-gray-200"
           onClick={() => {
             const filteredList = listOfRestaurant.filter(
               (res) => res.info.avgRating > 4.2
