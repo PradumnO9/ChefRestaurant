@@ -36,8 +36,9 @@ const Body = () => {
         <div className="m-4 p-4">
           <input
             type="text"
-            className="border border-solid border-gray-400 py-1 rounded-l-md"
+            className="border border-solid border-gray-400 py-1 rounded-l-md p-2"
             value={searchText}
+            placeholder="search restaurant"
             onChange={(e) => {
               setSearchText(e.target.value);
             }}

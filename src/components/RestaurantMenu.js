@@ -2,9 +2,12 @@ import { useParams } from "react-router-dom";
 import LoadingSpinner from "./LoadingSpinner";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategory";
+import { useState } from "react";
 
 const RestaurantMenu = () => {
   const { resId } = useParams();
+
+  const [listIndex, setListIndex] = useState(null);
 
   const resInfo = useRestaurantMenu(resId);
 
@@ -18,7 +21,7 @@ const RestaurantMenu = () => {
   const categories =
     resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
       (c) =>
-        c.card?.card?.['@type'] ===
+        c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
 
@@ -34,9 +37,15 @@ const RestaurantMenu = () => {
         <h5 className="font-bold mt-2">{sla?.slaString}</h5>
       </div>
       <div className="mx-52 mt-4">
-        {categories.map((category) => {
-          return(
-            <RestaurantCategory key={category?.card?.card.title} data={category?.card?.card} />
+        {categories.map((category, index) => {
+          return (
+            // Controlled Component
+            <RestaurantCategory
+              key={category?.card?.card.title}
+              data={category?.card?.card}
+              showItems={index === listIndex ? true : false}
+              setListIndex={() => setListIndex(index)}
+            />
           );
         })}
       </div>

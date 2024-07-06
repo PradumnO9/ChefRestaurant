@@ -1,17 +1,16 @@
-import React, { useState } from "react";
 import RestaurantMenuCard, { WithVegLabel } from "./RestaurantMenuCard";
 import { RiArrowDownWideLine } from "react-icons/ri";
 
 const RestaurantCategory = (props) => {
-  const [showItemCards, setShowItemCards] = useState(false);
 
-  const { data } = props;
+  const { data, showItems, setListIndex } = props;
   const { title, itemCards } = data;
 
+  // Higher Order Component
   const RestaurantMenuCardWithVegLabel = WithVegLabel(RestaurantMenuCard);
 
   const handleClick = () => {
-    setShowItemCards(!showItemCards);
+    setListIndex();
   };
 
   return (
@@ -27,7 +26,7 @@ const RestaurantCategory = (props) => {
           <RiArrowDownWideLine size={30} />
         </span>
       </div>
-      {showItemCards && (
+      {showItems && (
         <div className="my-4 mx-4">
           <hr />
           {itemCards.map((item) => {

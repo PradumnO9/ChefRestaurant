@@ -32,3 +32,13 @@ Restaurant Application using React
  - Implement Custom Hook -> useRestaurantMenu, useOnlineStatus
  - Lazy Loading
  - Configured Tailwind CSS
+ - Controlled and unControlled Components
+ - React Context -> createContext, useContext, Context.Provider
+
+ # Redux Toolkit
+    -Install -> @reduxjs/toolkit, react-redux
+    -Build our Store
+    -Connect Store to App
+    -Create (CartSlice)
+    -dispatch(action)
+    -selector

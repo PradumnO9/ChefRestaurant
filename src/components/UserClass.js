@@ -19,7 +19,6 @@ class UserClass extends React.Component {
     this.setState({
         user: json,
     });
-    console.log(json);
   };
 
   render() {

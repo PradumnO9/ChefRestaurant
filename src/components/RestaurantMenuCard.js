@@ -1,8 +1,18 @@
+import { useDispatch } from "react-redux";
 import { MENU_ITEM_IMG_URL } from "../utils/constant";
+import { addItem } from "../redux/cartSlice";
 
 const RestaurantMenuCard = (props) => {
   const { cardInfo } = props;
   const { name, defaultPrice, price, description, imageId } = cardInfo;
+
+  const dispatch = useDispatch();
+
+  const handleAddClick = (cardInfo) => {
+    //dispatch an action
+    dispatch(addItem(cardInfo));
+  }
+
   return (
     <div>
       <div className="flex justify-between my-2">
@@ -15,7 +25,9 @@ const RestaurantMenuCard = (props) => {
           <p>{description}</p>
         </div>
         <div className="w-3/12">
-        <div className="absolute font-bold bg-white text-green-400 px-4 py-2 rounded-lg shadow-md"><button>Add</button></div>
+          <div className="absolute font-bold bg-white text-green-400 px-4 py-2 rounded-lg shadow-md">
+            <button onClick={() => handleAddClick(cardInfo)}>Add</button>
+          </div>
           <img
             className="rounded-r-md"
             alt=""
