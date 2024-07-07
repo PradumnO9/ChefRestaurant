@@ -35,8 +35,8 @@ const Cart = () => {
             Clear Cart
           </button>
         </div>
-        {cartItems.map((item) => {
-          return <CartItem key={item.id} itemList={item} />;
+        {cartItems.map((item, index) => {
+          return <CartItem key={item.id} itemList={item} index={index} />;
         })}
       </div>
     </div>

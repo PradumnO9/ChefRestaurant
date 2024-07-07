@@ -10,12 +10,11 @@ const cartSlice = createSlice({
             // Mutating the state here
             state.items.push(action.payload);
         },
-        removeItem: (state) => {
-            state.items.pop();
+        removeItem: (state, action) => {
+            state.items.splice(action.payload, 1);
         },
         clearCart: (state) => {
             state.items.length = 0
-
             //or return  { items: [] } - this new [] will replaced inside original state = { items: [] }
         }
     }

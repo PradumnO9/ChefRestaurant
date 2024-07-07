@@ -14,6 +14,7 @@ import appStore from "./redux/appStore";
 import Cart from "./components/Cart";
 
 const About = lazy(() => import("./components/About"));
+const ContactUs = lazy(() => import("./components/ContactUs"));
 
 const App = () => {
   const [userName, setUserName] = useState();
@@ -34,7 +35,7 @@ const App = () => {
         {onlineStatus ? (
           <Outlet />
         ) : (
-          <h1>You are offline, Please check your internet connection</h1>
+          <h1 className="font-bold text-2xl text-center mt-40">You are offline, Please check your internet connection</h1>
         )}
       </UserContext.Provider>
     </Provider>
@@ -55,6 +56,14 @@ const appRouter = createBrowserRouter([
         element: (
           <Suspense fallback={<LoadingSpinner />}>
             <About />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/contact",
+        element: (
+          <Suspense fallback={<LoadingSpinner />}>
+            <ContactUs />
           </Suspense>
         ),
       },

@@ -18,7 +18,7 @@ const Header = () => {
   const cartList = useSelector((store) => store.cart.items);
 
   return (
-    <div className="flex justify-between bg-gray-50 shadow-md">
+    <div className="flex justify-between bg-gray-50 shadow-md sticky top-0 z-10">
       <div className="logo flex items-center">
         <img alt="" className="w-24" src={LOGO_URL} />
         <div className="ml-2">
@@ -54,6 +54,9 @@ const Header = () => {
           </li>
           <li className="px-4 text-lg">
             <Link to="/about">About Us</Link>
+          </li>
+          <li className="px-4 text-lg">
+            <Link to="/contact">Contact Us</Link>
           </li>
           <li className="px-2 text-lg">
             <Link to="/cart" className="flex">

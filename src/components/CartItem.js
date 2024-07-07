@@ -1,11 +1,15 @@
 import React from "react";
 import { MENU_ITEM_IMG_URL } from "../utils/constant";
+import { useDispatch } from "react-redux";
+import { removeItem } from "../redux/cartSlice";
 
-const CartItem = ({ itemList }) => {
+const CartItem = ({ itemList, index }) => {
 
-    const deleteItem = () => {
+  const dispatch = useDispatch();
 
-    }
+  const deleteItem = (index) => {
+    dispatch(removeItem(index));
+  };
 
   return (
     <div className="flex justify-between my-2">
@@ -18,8 +22,11 @@ const CartItem = ({ itemList }) => {
         <p>{itemList.description}</p>
       </div>
       <div className="w-3/12">
-        <div className="absolute font-bold bg-white border border-solid border-gray-300 text-green-400 px-4 py-2 rounded-lg shadow-md">
-          <button onClick={deleteItem}>Delete</button>
+        <div
+          className="absolute font-bold bg-white border border-solid border-gray-300 text-green-400 px-4 py-2 rounded-lg shadow-md cursor-pointer"
+          onClick={() => deleteItem(index)}
+        >
+          <button>Delete</button>
         </div>
         <img
           className="rounded-r-md"

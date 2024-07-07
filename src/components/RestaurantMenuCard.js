@@ -25,8 +25,8 @@ const RestaurantMenuCard = (props) => {
           <p>{description}</p>
         </div>
         <div className="w-3/12">
-          <div className="absolute font-bold bg-white text-green-400 px-4 py-2 rounded-lg shadow-md">
-            <button onClick={() => handleAddClick(cardInfo)}>Add</button>
+          <div onClick={() => handleAddClick(cardInfo)} className="absolute font-bold bg-white text-green-400 px-4 py-2 rounded-lg shadow-md cursor-pointer">
+            <button>Add</button>
           </div>
           <img
             className="rounded-r-md"
