@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { Provider } from "react-redux";
 
 import Header from "./components/Header";
-import Body from "./components/Body";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Error from "./components/Error";
 import LoadingSpinner from "./components/LoadingSpinner";
@@ -12,30 +11,34 @@ import useOnlineStatus from "./utils/useOnlineStatus";
 import UserContext from "./utils/UserContext";
 import appStore from "./redux/appStore";
 import Cart from "./components/Cart";
+import LoginPage from "./components/LoginPage";
+import Shimmer from "./components/Shimmer";
 
 const About = lazy(() => import("./components/About"));
 const ContactUs = lazy(() => import("./components/ContactUs"));
+const Body = lazy(() => import("./components/Body"));
 
 const App = () => {
-  const [userName, setUserName] = useState();
+  const [currentUser, setCurrentUser] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const onlineStatus = useOnlineStatus();
 
   useEffect(() => {
-    const data = {
-      name: "Pradumn",
-    };
-    setUserName(data.name);
-  }, []);
+    let user = localStorage.getItem("data");
+    setCurrentUser(JSON.parse(user));
+  }, [isLoggedIn]);
 
   return (
     <Provider store={appStore}>
-      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+      <UserContext.Provider value={{ data: currentUser, setIsLoggedIn }}>
         <Header />
         {onlineStatus ? (
           <Outlet />
         ) : (
-          <h1 className="font-bold text-2xl text-center mt-40">You are offline, Please check your internet connection</h1>
+          <h1 className="font-bold text-2xl text-center mt-40">
+            You are offline, Please check your internet connection
+          </h1>
         )}
       </UserContext.Provider>
     </Provider>
@@ -49,7 +52,15 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Body />,
+        element: <LoginPage />,
+      },
+      {
+        path: "/home",
+        element: (
+          <Suspense fallback={<Shimmer />}>
+            <Body />,
+          </Suspense>
+        ),
       },
       {
         path: "/about",
@@ -69,7 +80,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/cart",
-        element: <Cart />
+        element: <Cart />,
       },
       {
         path: "/restaurant/:resId",
