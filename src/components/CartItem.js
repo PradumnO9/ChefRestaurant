@@ -12,7 +12,7 @@ const CartItem = ({ itemList, index }) => {
   };
 
   return (
-    <div className="flex justify-between my-2">
+    <div data-testid="cartItems" className="flex justify-between my-2">
       <div className="mt-6 w-9/12">
         <h2 className="font-bold text-xl">{itemList.name}</h2>
         <h4 className="mt-2 font-bold">

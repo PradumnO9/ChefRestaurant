@@ -2,7 +2,6 @@ import RestaurantMenuCard, { WithVegLabel } from "./RestaurantMenuCard";
 import { RiArrowDownWideLine } from "react-icons/ri";
 
 const RestaurantCategory = (props) => {
-
   const { data, showItems, setListIndex } = props;
   const { title, itemCards } = data;
 
@@ -32,7 +31,7 @@ const RestaurantCategory = (props) => {
           {itemCards.map((item) => {
             const { isVeg, id } = item?.card?.info;
             return (
-              <div key={id}>
+              <div key={id} data-testid="foodItems">
                 {isVeg === 1 ? (
                   <RestaurantMenuCardWithVegLabel cardInfo={item?.card?.info} />
                 ) : (

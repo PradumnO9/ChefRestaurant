@@ -3,6 +3,23 @@ import ContactUs from "../components/ContactUs";
 import "@testing-library/jest-dom"; // toBeInTheDocument coming from here
 
 describe("Contact Us test cases", () => {
+
+  // beforeAll(() => {
+  //   console.log("Before All");
+  // })
+
+  // beforeEach(() => {
+  //   console.log("Before Each");
+  // })
+
+  // afterAll(() => {
+  //   console.log("After All");
+  // })
+
+  // afterEach(() => {
+  //   console.log("After Each");
+  // })
+
   test("Should load contact us component", () => {
     render(<ContactUs />);
 

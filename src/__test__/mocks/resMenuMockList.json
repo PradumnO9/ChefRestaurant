@@ -1,0 +1,3401 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Ekta Juice Corner",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "150526",
+              "name": "Ekta Juice Corner",
+              "city": "Raipur",
+              "slugs": {
+                "restaurant": "ekta-juice-corner-moudhapara-moudhapara",
+                "city": "raipur"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "458e82a3b3f93ebf251044e411826aba",
+              "locality": "Amapara",
+              "areaName": "samta colony",
+              "costForTwo": "10000",
+              "costForTwoMessage": "₹100 for two",
+              "cuisines": [
+                "Juices"
+              ],
+              "avgRating": 4.3,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "150526",
+                "fees": [
+                  {
+                    "name": "TYPE_DISTANCE",
+                    "fee": 2100
+                  },
+                  {
+                    "name": "TYPE_TIME"
+                  }
+                ],
+                "totalFee": 2100,
+                "title": "Delivery Charge",
+                "amount": "2100",
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "Order above 149 for discounted delivery fee"
+              },
+              "parentId": "76901",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "1K+ ratings",
+              "sla": {
+                "restaurantId": "150526",
+                "deliveryTime": 22,
+                "minDeliveryTime": 20,
+                "maxDeliveryTime": 25,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1097,
+                "slaString": "20-25 MINS",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-07-08 23:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+                  
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Flat ₹150 off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "60% off | Use SAVINGS4ME",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "60% off up to ₹120 | Use code SAVINGS4ME",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+                
+              },
+              "slugString": "ekta-juice-corner-moudhapara-moudhapara",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "opposite gurughasidas complex,beside rd tiwari school,amapara,moudhapara"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Juices"
+                }
+              ],
+              "totalRatings": 1000,
+              "aggregatedDiscountInfoV2": {
+                "header": "Flat ₹150 off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "60% off | Use SAVINGS4ME",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "FLAT ₹150 off | Use SAVERDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "60% off up to ₹120 | Use code SAVINGS4ME",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 174,
+                  "maxValue": 249,
+                  "priority": 1,
+                  "couponCode": "SAVERDEAL",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 150
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹150 | Code SAVERDEAL",
+                  "unlockedMessage": "SAVERDEAL Coupon Unlocked! Use it to save ₹150",
+                  "logoCtx": {
+                    
+                  }
+                },
+                {
+                  "minValue": 314,
+                  "maxValue": 449,
+                  "priority": 4,
+                  "couponCode": "MEGASAVER",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 175
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹175 | Code MEGASAVER",
+                  "unlockedMessage": "MEGASAVER Coupon Unlocked! Use it to save ₹175",
+                  "logoCtx": {
+                    
+                  }
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/150526"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "Order above 149 for discounted delivery fee",
+                  "icon": {
+                    "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                  },
+                  "popup": {
+                    "cta": {
+                      
+                    }
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "Order above 149 for discounted delivery fee",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      
+                    }
+                  },
+                  "trailingIcon": {
+                    
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {
+                  
+                },
+                "subTitle": {
+                  
+                },
+                "message": {
+                  
+                },
+                "customIcon": {
+                  
+                }
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+                  
+                },
+                "presentation": {
+                  
+                }
+              },
+              "latLong": "21.24027643,81.62425585",
+              "backgroundImageOverlayInfo": {
+                
+              }
+            },
+            "analytics": {
+              
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+                
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {
+                
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "Extra ₹20 off",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                      "offerIds": [
+                        "fe16d740-3558-4d3e-b331-bcfb67451dd0"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "APPLICABLE OVER & ABOVE COUPONS",
+                      "offerType": "offers",
+                      "restId": "150526",
+                      "offerLogo": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "e8723953-8c9b-4f80-a647-a75418a1b900"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE SAVERDEAL",
+                      "description": "ABOVE ₹249",
+                      "offerType": "offers",
+                      "restId": "150526",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "60% OFF UPTO ₹120",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "e3ccbfef-c778-4b81-8f5f-8059fe55775b"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE SAVINGS4ME",
+                      "description": "ABOVE ₹199",
+                      "offerType": "offers",
+                      "restId": "150526",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹100 OFF",
+                      "offerTag": "WELCOME",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "56fb730e-0298-4c40-a615-ba9fd6bca9d6"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE WELCOMEBACK100",
+                      "description": "ABOVE ₹199",
+                      "offerType": "offers",
+                      "restId": "150526",
+                      "offerLogo": "offers/welcome",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹175 OFF",
+                      "offerTag": "DEFAULT",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "9659b62d-f627-4208-9063-0ee7100ac8db"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE MEGASAVER",
+                      "description": "ABOVE ₹449",
+                      "offerType": "offers",
+                      "restId": "150526",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {
+                    
+                  }
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {
+                    
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {
+                        
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514133",
+                              "name": "Badam Shake",
+                              "category": "Shake",
+                              "description": "Rich, creamy, and irresistible, this delectable shake blends flavors and textures to create a truly delightful drink.",
+                              "imageId": "muchkn3tplxxywr1bonp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "1116 ratings",
+                                  "ratingCountV2": "1116"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365076",
+                              "name": "Kit-Kat Shake",
+                              "category": "Shake",
+                              "description": "A creamy, indulgent shake that will satisfy your sweet tooth and leave you craving for more.",
+                              "imageId": "07eff59e8565749cd91fe8860d7ad033",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "148 ratings",
+                                  "ratingCountV2": "148"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514148",
+                              "name": "Cold Coffee With Ice Cream",
+                              "category": "Shake",
+                              "description": "A delectable and refreshing blend of smooth cold coffee and creamy ice cream, perfect for satisfying your sweet cravings.",
+                              "imageId": "a6rcktw7akgkhmolmubb",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "162 ratings",
+                                  "ratingCountV2": "162"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514151",
+                              "name": "Chikoo Shake",
+                              "category": "Shake",
+                              "description": "A sweet and creamy delight filled with refreshing flavors, perfect to cool off on a hot day.",
+                              "imageId": "zjavv5bzjmr9qf04x1zg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "84 ratings",
+                                  "ratingCountV2": "84"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514139",
+                              "name": "Strawberry Shake",
+                              "category": "Shake",
+                              "description": "A refreshing and luscious blend of fruity goodness, perfect for indulging in a creamy and delectable shake experience.",
+                              "imageId": "fpizttptmwj6z815b6r8",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "79 ratings",
+                                  "ratingCountV2": "79"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514142",
+                              "name": "Banana Shake",
+                              "category": "Shake",
+                              "description": "A creamy and refreshing delight that combines the natural sweetness of bananas for a delightful shake experience.",
+                              "imageId": "prsmh419tividbondb2y",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "70 ratings",
+                                  "ratingCountV2": "70"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514150",
+                              "name": "Raat Rani Shake",
+                              "category": "Shake",
+                              "description": "Indulge in the velvety goodness of this luscious and refreshing veg shake that will transport your taste buds to pure bliss.",
+                              "imageId": "aknz8ndyy16ohg4kplkw",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514145",
+                              "name": "Rose Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a luscious and refreshing blend of flavors with our delightful Rose Shake.",
+                              "imageId": "jscb8ovhdqsgl14bn1np",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514146",
+                              "name": "Vanilla Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a creamy and luscious Vanilla Shake that will satisfy your sweet cravings.",
+                              "imageId": "nefuxcqoiyohr5tbeay9",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116366347",
+                              "name": "Pomegranate (Anar) Juice",
+                              "category": "Juices",
+                              "description": "Refreshing and vibrant, this juice is bursting with the luscious flavors of succulent pomegranate, offering a delightful fruity experience.",
+                              "imageId": "6e5b4908ac2b047c8b169e2ef501ffe0",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "460 ratings",
+                                  "ratingCountV2": "460"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514158",
+                              "name": "Pineapple Juice",
+                              "category": "Juices",
+                              "description": "A refreshing tropical delight bursting with the sweet, tangy essence of juicy pineapples.",
+                              "imageId": "gpmu0enr5eq0rdbo2to5",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "419 ratings",
+                                  "ratingCountV2": "419"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365086",
+                              "name": "Mix Fruits Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and flavorful blend of mixed fruits, delivering a burst of natural sweetness and vibrant flavors in every sip.",
+                              "imageId": "d380075938a14017982d3f1ba0a00284",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "150 ratings",
+                                  "ratingCountV2": "150"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365084",
+                              "name": "Sweet Lemon (Mosambi) Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and tangy citrus concoction that delights the palate with its sweet and zesty flavors.",
+                              "imageId": "8b9a7cda746e891aa7c6003f89d20c72",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "297 ratings",
+                                  "ratingCountV2": "297"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514167",
+                              "name": "Kiwi Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and invigorating green juice bursting with the sweet tanginess of freshly picked kiwi.",
+                              "imageId": "vjyvqozhgcd2o6zarxcs",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "68 ratings",
+                                  "ratingCountV2": "68"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514156",
+                              "name": "Apple Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and naturally sweet juice bursting with the crisp essence of orchard-fresh apples.",
+                              "imageId": "cnkarnnyddrp0gckryol",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "45 ratings",
+                                  "ratingCountV2": "45"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Shake",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514133",
+                              "name": "Badam Shake",
+                              "category": "Shake",
+                              "description": "Rich, creamy, and irresistible, this delectable shake blends flavors and textures to create a truly delightful drink.",
+                              "imageId": "muchkn3tplxxywr1bonp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "1116 ratings",
+                                  "ratingCountV2": "1116"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365080",
+                              "name": "Fruits Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a refreshing blend of luscious fruits, bursting with natural sweetness and vibrant flavors.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/1839cfc0-be0a-4eca-adc0-2b7963b6571b_fb468135-e785-4394-ac60-7a3c32216bbc.jpg_compressed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "161 ratings",
+                                  "ratingCountV2": "161"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365076",
+                              "name": "Kit-Kat Shake",
+                              "category": "Shake",
+                              "description": "A creamy, indulgent shake that will satisfy your sweet tooth and leave you craving for more.",
+                              "imageId": "07eff59e8565749cd91fe8860d7ad033",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "148 ratings",
+                                  "ratingCountV2": "148"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514148",
+                              "name": "Cold Coffee With Ice Cream",
+                              "category": "Shake",
+                              "description": "A delectable and refreshing blend of smooth cold coffee and creamy ice cream, perfect for satisfying your sweet cravings.",
+                              "imageId": "a6rcktw7akgkhmolmubb",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "162 ratings",
+                                  "ratingCountV2": "162"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365082",
+                              "name": "Dry Fruits Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a luscious blend of dried fruits, pure indulgence in every sip.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "55 ratings",
+                                  "ratingCountV2": "55"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514151",
+                              "name": "Chikoo Shake",
+                              "category": "Shake",
+                              "description": "A sweet and creamy delight filled with refreshing flavors, perfect to cool off on a hot day.",
+                              "imageId": "zjavv5bzjmr9qf04x1zg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "84 ratings",
+                                  "ratingCountV2": "84"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514139",
+                              "name": "Strawberry Shake",
+                              "category": "Shake",
+                              "description": "A refreshing and luscious blend of fruity goodness, perfect for indulging in a creamy and delectable shake experience.",
+                              "imageId": "fpizttptmwj6z815b6r8",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "79 ratings",
+                                  "ratingCountV2": "79"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313249",
+                              "name": "Oreo Shake",
+                              "category": "Shake",
+                              "description": "A creamy and indulgent dessert with a perfect blend of sweetness and crunch.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/8fd7bdb0-13c9-4343-945f-dce9b9573251_e4d6e145-510c-47f4-928c-c408e676c2ce.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "37 ratings",
+                                  "ratingCountV2": "37"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514154",
+                              "name": "Anjeer Shake",
+                              "category": "Shake",
+                              "description": "A luscious and refreshing blend of flavors that will tantalize your taste buds.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "53 ratings",
+                                  "ratingCountV2": "53"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313255",
+                              "name": "Ras Malai Shake",
+                              "category": "Shake",
+                              "description": "Indulge in the creamy bliss of this delightful shake, blending traditional flavors for a divine taste experience.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/fbf388fc-3ee2-4e4a-b84e-0f5b5968ffaa_6c839321-c41d-4f27-a369-985018edb447.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "28 ratings",
+                                  "ratingCountV2": "28"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514135",
+                              "name": "Pineapple Shake",
+                              "category": "Shake",
+                              "description": "A refreshing blend of tropical sweetness crafted into a luscious, velvety shake.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/7a80ade6-6a71-4d8c-b14b-640772c14a7e_ed5c8540-506b-4e9a-b2ed-33d031ea0021.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313256",
+                              "name": "Badam Thandai Shake",
+                              "category": "Shake",
+                              "description": "A creamy and indulgent milkshake infused with the rich flavors of almond and aromatic spices.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/537c917e-ef53-4dee-a654-ad60f579acd9_2a9b5899-e4b5-4618-b9da-4bcb3f2b2ab8.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514142",
+                              "name": "Banana Shake",
+                              "category": "Shake",
+                              "description": "A creamy and refreshing delight that combines the natural sweetness of bananas for a delightful shake experience.",
+                              "imageId": "prsmh419tividbondb2y",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "70 ratings",
+                                  "ratingCountV2": "70"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116366346",
+                              "name": "Chocolate Shale",
+                              "category": "Shake",
+                              "description": "Indulge in a rich and velvety chocolate shake that will satisfy your sweet cravings.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/13b54981-e9b4-44ec-b72d-138ec0aecf2e_313e52a8-4344-4f12-b76d-f6ab4fa21726.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "15 ratings",
+                                  "ratingCountV2": "15"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514138",
+                              "name": "Butter Scotch Shake",
+                              "category": "Shake",
+                              "description": "Deliciously creamy and indulgent, this buttery shake is a delightful treat for any sweet tooth.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/2ef159df-a8d4-45e2-b141-2fddaee8301b_5f009b1f-9c65-48e3-9dc7-36684d7b34cf.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.4",
+                                  "ratingCount": "66 ratings",
+                                  "ratingCountV2": "66"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365078",
+                              "name": "Litchi Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a delightful, creamy creation that perfectly captures the refreshing essence of luscious litchis.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/ba45fe35-7915-49f7-99f4-7fabbcd8b293_f51456d6-0026-45a6-84a4-2d8dc3777120.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.0",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313258",
+                              "name": "Dates Milk Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a delectable blend of creamy goodness and natural sweetness with our Dates Milk Shake.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/bfbe11eb-737b-4353-b7f7-b805d9558378_a5a7a6b4-70dc-4b56-a8f7-7b293bed1c62.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365075",
+                              "name": "Kesar Elaichi Shake",
+                              "category": "Shake",
+                              "description": "A delightful blend of saffron and cardamom brings a burst of rich and aromatic flavors to this refreshing vegetarian shake.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/9a0294a8-ca2c-410e-8c9b-16c63baa8ec1_8547b886-a2ae-48c3-a99f-1ee3426c1e6c.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "16 ratings",
+                                  "ratingCountV2": "16"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313251",
+                              "name": "Blue Berry Shake",
+                              "category": "Shake",
+                              "description": "Indulge in the refreshing taste of our luscious blueberry shake, bursting with the perfect blend of fruity sweetness.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/51e9bdc6-5569-4f20-8591-f9adc2ff8fbf_94ac2a2b-c387-496d-af1e-a598ddea35fe.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "11 ratings",
+                                  "ratingCountV2": "11"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514150",
+                              "name": "Raat Rani Shake",
+                              "category": "Shake",
+                              "description": "Indulge in the velvety goodness of this luscious and refreshing veg shake that will transport your taste buds to pure bliss.",
+                              "imageId": "aknz8ndyy16ohg4kplkw",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514144",
+                              "name": "Black Current Shake",
+                              "category": "Shake",
+                              "description": "A refreshing and indulgent shake bursting with the tangy sweetness of black currants.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "32 ratings",
+                                  "ratingCountV2": "32"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514145",
+                              "name": "Rose Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a luscious and refreshing blend of flavors with our delightful Rose Shake.",
+                              "imageId": "jscb8ovhdqsgl14bn1np",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365081",
+                              "name": "Kiwi Shake",
+                              "category": "Shake",
+                              "description": "A refreshing and fruity blend that will transport you to tropical bliss.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514146",
+                              "name": "Vanilla Shake",
+                              "category": "Shake",
+                              "description": "Indulge in a creamy and luscious Vanilla Shake that will satisfy your sweet cravings.",
+                              "imageId": "nefuxcqoiyohr5tbeay9",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313254",
+                              "name": "Paan Shake",
+                              "category": "Shake",
+                              "description": "A refreshing blend of traditional flavors, offering a unique and indulgent experience.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365079",
+                              "name": "Papaya Shake",
+                              "category": "Shake",
+                              "description": "A refreshing and creamy blend of tropical flavors for a delightful Shake experience.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/680054e5-a21a-442c-ac8c-ed3fdb841b46_9be7bf03-4ff7-4c0c-ba76-4145cc65ad9a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "11 ratings",
+                                  "ratingCountV2": "11"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514140",
+                              "name": "Green Apple Shake",
+                              "category": "Shake",
+                              "description": "Refreshing and fruity, this satisfying shake blends the crispness of green apples into a creamy, luscious treat.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Juices",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116366347",
+                              "name": "Pomegranate (Anar) Juice",
+                              "category": "Juices",
+                              "description": "Refreshing and vibrant, this juice is bursting with the luscious flavors of succulent pomegranate, offering a delightful fruity experience.",
+                              "imageId": "6e5b4908ac2b047c8b169e2ef501ffe0",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "460 ratings",
+                                  "ratingCountV2": "460"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514158",
+                              "name": "Pineapple Juice",
+                              "category": "Juices",
+                              "description": "A refreshing tropical delight bursting with the sweet, tangy essence of juicy pineapples.",
+                              "imageId": "gpmu0enr5eq0rdbo2to5",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "419 ratings",
+                                  "ratingCountV2": "419"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365086",
+                              "name": "Mix Fruits Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and flavorful blend of mixed fruits, delivering a burst of natural sweetness and vibrant flavors in every sip.",
+                              "imageId": "d380075938a14017982d3f1ba0a00284",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "150 ratings",
+                                  "ratingCountV2": "150"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365084",
+                              "name": "Sweet Lemon (Mosambi) Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and tangy citrus concoction that delights the palate with its sweet and zesty flavors.",
+                              "imageId": "8b9a7cda746e891aa7c6003f89d20c72",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "297 ratings",
+                                  "ratingCountV2": "297"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514167",
+                              "name": "Kiwi Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and invigorating green juice bursting with the sweet tanginess of freshly picked kiwi.",
+                              "imageId": "vjyvqozhgcd2o6zarxcs",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "68 ratings",
+                                  "ratingCountV2": "68"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365085",
+                              "name": "Orange (Santra) Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and tangy citrus juice bursting with the vibrant flavors of freshly squeezed oranges.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "74 ratings",
+                                  "ratingCountV2": "74"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365087",
+                              "name": "Watermelon Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and flavorful juice bursting with the essence of juicy watermelon.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/718e7ff4-5017-482a-b8d3-7d070d78d259_6e490106-7bfc-4caf-ba08-2f05082e1a2f.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "126 ratings",
+                                  "ratingCountV2": "126"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514156",
+                              "name": "Apple Juice",
+                              "category": "Juices",
+                              "description": "A refreshing and naturally sweet juice bursting with the crisp essence of orchard-fresh apples.",
+                              "imageId": "cnkarnnyddrp0gckryol",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "45 ratings",
+                                  "ratingCountV2": "45"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "36514162",
+                              "name": "Beetroot Juice",
+                              "category": "Juices",
+                              "description": "A vibrant and refreshing blend that bursts with natural flavors and hints of sweetness.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/51350a1d-db24-42d4-8fb3-71a41e20ecab_b4816de3-9a9c-47dd-8678-dd51c3111d2f.jpg_compressed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "57 ratings",
+                                  "ratingCountV2": "57"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Faluda",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313242",
+                              "name": "Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "A delectable fusion of smooth ice cream and luscious falooda, brimming with delightful flavors and enticing textures.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "266 ratings",
+                                  "ratingCountV2": "266"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313243",
+                              "name": "Fruits Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "Indulge in a luscious blend of fruits, creamy ice cream, and the finest falooda, creating a delightful and refreshing treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/f4a17488-fc6d-4081-ae7d-057c23a0306a_5f92ee35-d2c8-4e9d-98a7-02bc42ff2520.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "40 ratings",
+                                  "ratingCountV2": "40"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313248",
+                              "name": "Ekta Special Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "Indulge in the tempting Ekta Special Falooda with Ice Cream, a delightful treat perfect to satisfy your sweet cravings.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/7ca17695-84df-4816-b63f-a15df7cbdb1a_f99f19bf-4995-4355-b5ef-d8b089f13536.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 23000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.4",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313247",
+                              "name": "Dry Fruit Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "Indulge in an irresistible treat of luscious ice cream and a delightful blend of dried fruits, all in one tantalizing dessert.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 23000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313244",
+                              "name": "Chocolate Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "Indulge in the heavenly delight of chocolate falooda with a delightful twist of ice cream, perfect for those seeking a delectable veg dessert.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/2dc6d3c2-9535-4774-a11b-0e9ac839633f_df54cf15-dbda-446f-a039-dce160bc7553.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.2",
+                                  "ratingCount": "15 ratings",
+                                  "ratingCountV2": "15"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313245",
+                              "name": "Butter Scotch Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "Indulge in the creamy goodness of this heavenly Butter Scotch Falooda, lavishly topped with ice cream.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/19747959-3d8a-429c-b25b-79b42fb61ae4_c1c64b24-7c4f-4e58-95fb-ae2f8383821e.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "22 ratings",
+                                  "ratingCountV2": "22"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313246",
+                              "name": "Rose Falooda With Ice Cream",
+                              "category": "Faluda",
+                              "description": "Indulge in a delectable fusion of rose-infused falooda and creamy scoops of ice cream.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/5b6d4365-bffb-420e-bc68-6f16179652c1_3404cb40-8bad-4157-96e4-ca093f118b28.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Fruits Plater",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116366349",
+                              "name": "Mix Fruit Platter",
+                              "category": "Fruits Plater",
+                              "description": "A fresh and vibrant mix of various succulent fruits artfully arranged to create a visually appealing and mouthwatering platter.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/f2f20228-cb70-48d1-8e75-cd6c7e39b250_9c471cdc-ea62-4252-ae5a-a871f86a6776.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "373 ratings",
+                                  "ratingCountV2": "373"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116365127",
+                              "name": "Watermelon Platter",
+                              "category": "Fruits Plater",
+                              "description": "A refreshing and vibrant assortment of juicy and sweet fruits, perfect for a light and delightful treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/9bfaf3da-d571-40c5-a367-7fa7fa656438_206a9430-96dc-474e-a71f-a73571907f4e.jpg_compressed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "56 ratings",
+                                  "ratingCountV2": "56"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Lassi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116313263",
+                              "name": "Keshar Lassi",
+                              "category": "Lassi",
+                              "description": "A creamy and fragrant Indian delight perfect for cooling off, Keshar Lassi will transport your taste buds to a world of sweet indulgence.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/327c49d1-9e02-4c53-a716-9e3f75ec20bb_981e5b7b-b937-4c5d-ba78-dca4c442628f.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "130 ratings",
+                                  "ratingCountV2": "130"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116366348",
+                              "name": "Plain Lassi ",
+                              "category": "Lassi",
+                              "description": "Refreshing and creamy, this traditional Indian yogurt-based drink is a delightful treat for any time of the day.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/19/5401dbff-0a72-407e-9665-5accedc1c4b7_77bddd29-25ee-46a2-90a2-1f1e7b58ad98.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "89 ratings",
+                                  "ratingCountV2": "89"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 20517079000082"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Ekta Juice Corner",
+                      "area": "samta colony",
+                      "completeAddress": "opposite gurughasidas complex,beside rd tiwari school,amapara,moudhapara"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "049c9707-f1e3-4705-87e0-5306ce2f5e1b",
+  "sid": "eud6106c-c511-430b-9eff-d08a894af181",
+  "deviceId": "2f8dc70a-0161-94c9-ae66-7bf7cb79fec7",
+  "csrfToken": "8Jls8WkhTOSa-i9XaeRZb6HmevInCGHpZhrXaW4M"
+}

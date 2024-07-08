@@ -1,5 +1,9 @@
 Restaurant Application using React
 
+# Install (Allow CORS: Access-Control-Allow-origin) chrome extension for cors errors
+- clone this repo and do npm 
+- npm start
+
 - Navigation Bar
 - Used React Hooks
 - Fatched Restaurant data from live swiggy API
@@ -44,8 +48,8 @@ Restaurant Application using React
     -selector
 
 # Types of testing (developer)
-    -Unit Testing
-    -Integration Testing
+    -Unit Testing -> testing 1 component in isolation
+    -Integration Testing -> testing when multiple components work together
     -End to end Testing (e2e testing)
 
 # Setting up testing in our App

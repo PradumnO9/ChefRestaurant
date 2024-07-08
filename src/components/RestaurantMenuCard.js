@@ -11,7 +11,7 @@ const RestaurantMenuCard = (props) => {
   const handleAddClick = (cardInfo) => {
     //dispatch an action
     dispatch(addItem(cardInfo));
-  }
+  };
 
   return (
     <div>
@@ -25,7 +25,10 @@ const RestaurantMenuCard = (props) => {
           <p>{description}</p>
         </div>
         <div className="w-3/12">
-          <div onClick={() => handleAddClick(cardInfo)} className="absolute font-bold bg-white text-green-400 px-4 py-2 rounded-lg shadow-md cursor-pointer">
+          <div
+            onClick={() => handleAddClick(cardInfo)}
+            className="absolute font-bold bg-white text-green-400 px-4 py-2 rounded-lg shadow-md cursor-pointer"
+          >
             <button>Add</button>
           </div>
           <img

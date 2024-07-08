@@ -16,6 +16,7 @@ const ReataurantCard = (props) => {
   return (
     <div>
       <div
+        data-testid="resCard"
         className="w-[270px] rounded-md mx-4 mb-4 bg-gray-50 hover:scale-105 ease-in duration-150"
       >
         <div className="w-full">
@@ -31,7 +32,9 @@ const ReataurantCard = (props) => {
           <h3 className="font-bold text-sm m-1">{avgRating} stars</h3>
           <h3 className="font-bold text-sm m-1">{costForTwo}</h3>
           <h3 className="font-bold text-sm m-1">Location: {areaName}</h3>
-          <h4 className="font-bold text-xs m-1">Delivery time: {sla?.slaString}</h4>
+          <h4 className="font-bold text-xs m-1">
+            Delivery time: {sla?.slaString}
+          </h4>
         </div>
       </div>
     </div>

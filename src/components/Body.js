@@ -37,6 +37,7 @@ const Body = () => {
           <input
             type="text"
             className="border border-solid border-gray-400 py-1 rounded-l-md p-2"
+            data-testid="searchInput"
             value={searchText}
             placeholder="search restaurant"
             onChange={(e) => {
@@ -59,17 +60,17 @@ const Body = () => {
           </button>
         </div>
         <div className="m-4 p-4">
-        <button
-          className="px-4 py-1 bg-gray-100 rounded-md hover:bg-gray-200"
-          onClick={() => {
-            const filteredList = listOfRestaurant.filter(
-              (res) => res.info.avgRating > 4.2
-            );
-            setFilteredRestaurant(filteredList);
-          }}
-        >
-          Top Rated Restaurant
-        </button>
+          <button
+            className="px-4 py-1 bg-gray-100 rounded-md hover:bg-gray-200"
+            onClick={() => {
+              const filteredList = listOfRestaurant.filter(
+                (res) => res.info.avgRating > 4
+              );
+              setFilteredRestaurant(filteredList);
+            }}
+          >
+            Top Rated Restaurants
+          </button>
         </div>
       </div>
       <div className="flex flex-wrap">
