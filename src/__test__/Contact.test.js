@@ -13,7 +13,7 @@ describe("Contact Us test cases", () => {
     expect(heading).toBeInTheDocument();
   });
 
-  test("Should load Button inside contact component", () => {
+  it("Should load Button inside contact component", () => {
     render(<ContactUs />);
 
     const button = screen.getByRole("button");
@@ -32,7 +32,7 @@ describe("Contact Us test cases", () => {
     expect(inputName).toBeInTheDocument();
   });
 
-  test("Should load 2 input boxes inside contact component", () => {
+  it("Should load 2 input boxes inside contact component", () => {
     render(<ContactUs />);
 
     const inputBoxes = screen.getAllByRole("textbox"); // for multiple items use getAll -> returns a array of object
